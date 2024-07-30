@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F313DBF42C58986A0005D6B8 /* MonthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313DBF32C58986A0005D6B8 /* MonthData.swift */; };
+		F313DBF62C5898A30005D6B8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313DBF52C5898A30005D6B8 /* Transaction.swift */; };
+		F313DBF92C589BDC0005D6B8 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313DBF82C589BDC0005D6B8 /* SummaryView.swift */; };
+		F313DBFB2C589C120005D6B8 /* AdditionalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313DBFA2C589C120005D6B8 /* AdditionalInfoView.swift */; };
+		F313DBFC2C589E850005D6B8 /* MonthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313DBF32C58986A0005D6B8 /* MonthData.swift */; };
+		F313DBFD2C589E880005D6B8 /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342687C2BF95B7300D5D3B1 /* LineItem.swift */; };
+		F313DBFE2C589E8A0005D6B8 /* SpendingCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342687F2BF95D0A00D5D3B1 /* SpendingCategory.swift */; };
+		F313DBFF2C589E8D0005D6B8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313DBF52C5898A30005D6B8 /* Transaction.swift */; };
+		F342684D2BF959D200D5D3B1 /* cheddarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342684C2BF959D200D5D3B1 /* cheddarApp.swift */; };
+		F342684F2BF959D200D5D3B1 /* ContentView old.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342684E2BF959D200D5D3B1 /* ContentView old.swift */; };
+		F34268532BF959D300D5D3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34268522BF959D300D5D3B1 /* Assets.xcassets */; };
+		F34268572BF959D300D5D3B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34268562BF959D300D5D3B1 /* Preview Assets.xcassets */; };
+		F34268612BF959D300D5D3B1 /* cheddarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34268602BF959D300D5D3B1 /* cheddarTests.swift */; };
+		F342686B2BF959D300D5D3B1 /* cheddarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342686A2BF959D300D5D3B1 /* cheddarUITests.swift */; };
+		F342686D2BF959D300D5D3B1 /* cheddarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342686C2BF959D300D5D3B1 /* cheddarUITestsLaunchTests.swift */; };
+		F342687D2BF95B7300D5D3B1 /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342687C2BF95B7300D5D3B1 /* LineItem.swift */; };
+		F34268802BF95D0A00D5D3B1 /* SpendingCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342687F2BF95D0A00D5D3B1 /* SpendingCategory.swift */; };
+		F34268832BF95F3F00D5D3B1 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34268822BF95F3F00D5D3B1 /* BudgetView.swift */; };
+		F3DE01982C1EA75200A8FD04 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DE01972C1EA75200A8FD04 /* PieChartView.swift */; };
+		F3DE019A2C1EA9C200A8FD04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DE01992C1EA9C200A8FD04 /* ContentView.swift */; };
+		F3DE019C2C1EAA2A00A8FD04 /* IncomeCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DE019B2C1EAA2A00A8FD04 /* IncomeCalculatorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F342685D2BF959D300D5D3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34268412BF959D200D5D3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34268482BF959D200D5D3B1;
+			remoteInfo = cheddar;
+		};
+		F34268672BF959D300D5D3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34268412BF959D200D5D3B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34268482BF959D200D5D3B1;
+			remoteInfo = cheddar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F313DBF32C58986A0005D6B8 /* MonthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthData.swift; sourceTree = "<group>"; };
+		F313DBF52C5898A30005D6B8 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F313DBF82C589BDC0005D6B8 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		F313DBFA2C589C120005D6B8 /* AdditionalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoView.swift; sourceTree = "<group>"; };
+		F34268492BF959D200D5D3B1 /* cheddar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cheddar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F342684C2BF959D200D5D3B1 /* cheddarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheddarApp.swift; sourceTree = "<group>"; };
+		F342684E2BF959D200D5D3B1 /* ContentView old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView old.swift"; sourceTree = "<group>"; };
+		F34268522BF959D300D5D3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F34268542BF959D300D5D3B1 /* cheddar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cheddar.entitlements; sourceTree = "<group>"; };
+		F34268562BF959D300D5D3B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F342685C2BF959D300D5D3B1 /* cheddarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cheddarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34268602BF959D300D5D3B1 /* cheddarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheddarTests.swift; sourceTree = "<group>"; };
+		F34268662BF959D300D5D3B1 /* cheddarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cheddarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F342686A2BF959D300D5D3B1 /* cheddarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheddarUITests.swift; sourceTree = "<group>"; };
+		F342686C2BF959D300D5D3B1 /* cheddarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheddarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F342687C2BF95B7300D5D3B1 /* LineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItem.swift; sourceTree = "<group>"; };
+		F342687F2BF95D0A00D5D3B1 /* SpendingCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingCategory.swift; sourceTree = "<group>"; };
+		F34268822BF95F3F00D5D3B1 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		F3DE01972C1EA75200A8FD04 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		F3DE01992C1EA9C200A8FD04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3DE019B2C1EAA2A00A8FD04 /* IncomeCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeCalculatorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34268462BF959D200D5D3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34268592BF959D300D5D3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34268632BF959D300D5D3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F313DBF72C589BC90005D6B8 /* oldviews */ = {
+			isa = PBXGroup;
+			children = (
+				F34268822BF95F3F00D5D3B1 /* BudgetView.swift */,
+				F3DE01972C1EA75200A8FD04 /* PieChartView.swift */,
+			);
+			path = oldviews;
+			sourceTree = "<group>";
+		};
+		F34268402BF959D200D5D3B1 = {
+			isa = PBXGroup;
+			children = (
+				F342684B2BF959D200D5D3B1 /* cheddar */,
+				F342685F2BF959D300D5D3B1 /* cheddarTests */,
+				F34268692BF959D300D5D3B1 /* cheddarUITests */,
+				F342684A2BF959D200D5D3B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F342684A2BF959D200D5D3B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34268492BF959D200D5D3B1 /* cheddar.app */,
+				F342685C2BF959D300D5D3B1 /* cheddarTests.xctest */,
+				F34268662BF959D300D5D3B1 /* cheddarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F342684B2BF959D200D5D3B1 /* cheddar */ = {
+			isa = PBXGroup;
+			children = (
+				F34268812BF95F2D00D5D3B1 /* Views */,
+				F34268792BF95AB400D5D3B1 /* Model */,
+				F342684C2BF959D200D5D3B1 /* cheddarApp.swift */,
+				F342684E2BF959D200D5D3B1 /* ContentView old.swift */,
+				F34268522BF959D300D5D3B1 /* Assets.xcassets */,
+				F34268542BF959D300D5D3B1 /* cheddar.entitlements */,
+				F34268552BF959D300D5D3B1 /* Preview Content */,
+			);
+			path = cheddar;
+			sourceTree = "<group>";
+		};
+		F34268552BF959D300D5D3B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F34268562BF959D300D5D3B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F342685F2BF959D300D5D3B1 /* cheddarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34268602BF959D300D5D3B1 /* cheddarTests.swift */,
+			);
+			path = cheddarTests;
+			sourceTree = "<group>";
+		};
+		F34268692BF959D300D5D3B1 /* cheddarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F342686A2BF959D300D5D3B1 /* cheddarUITests.swift */,
+				F342686C2BF959D300D5D3B1 /* cheddarUITestsLaunchTests.swift */,
+			);
+			path = cheddarUITests;
+			sourceTree = "<group>";
+		};
+		F34268792BF95AB400D5D3B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3DE019D2C1EAAAA00A8FD04 /* IncomeCalculator */,
+				F342687E2BF95CF700D5D3B1 /* Budget */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F342687E2BF95CF700D5D3B1 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				F342687C2BF95B7300D5D3B1 /* LineItem.swift */,
+				F342687F2BF95D0A00D5D3B1 /* SpendingCategory.swift */,
+				F313DBF32C58986A0005D6B8 /* MonthData.swift */,
+				F313DBF52C5898A30005D6B8 /* Transaction.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		F34268812BF95F2D00D5D3B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F313DBF72C589BC90005D6B8 /* oldviews */,
+				F3DE01992C1EA9C200A8FD04 /* ContentView.swift */,
+				F3DE019B2C1EAA2A00A8FD04 /* IncomeCalculatorView.swift */,
+				F313DBF82C589BDC0005D6B8 /* SummaryView.swift */,
+				F313DBFA2C589C120005D6B8 /* AdditionalInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3DE019D2C1EAAAA00A8FD04 /* IncomeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IncomeCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34268482BF959D200D5D3B1 /* cheddar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34268702BF959D300D5D3B1 /* Build configuration list for PBXNativeTarget "cheddar" */;
+			buildPhases = (
+				F34268452BF959D200D5D3B1 /* Sources */,
+				F34268462BF959D200D5D3B1 /* Frameworks */,
+				F34268472BF959D200D5D3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cheddar;
+			productName = cheddar;
+			productReference = F34268492BF959D200D5D3B1 /* cheddar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F342685B2BF959D300D5D3B1 /* cheddarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34268732BF959D300D5D3B1 /* Build configuration list for PBXNativeTarget "cheddarTests" */;
+			buildPhases = (
+				F34268582BF959D300D5D3B1 /* Sources */,
+				F34268592BF959D300D5D3B1 /* Frameworks */,
+				F342685A2BF959D300D5D3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F342685E2BF959D300D5D3B1 /* PBXTargetDependency */,
+			);
+			name = cheddarTests;
+			productName = cheddarTests;
+			productReference = F342685C2BF959D300D5D3B1 /* cheddarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F34268652BF959D300D5D3B1 /* cheddarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34268762BF959D300D5D3B1 /* Build configuration list for PBXNativeTarget "cheddarUITests" */;
+			buildPhases = (
+				F34268622BF959D300D5D3B1 /* Sources */,
+				F34268632BF959D300D5D3B1 /* Frameworks */,
+				F34268642BF959D300D5D3B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34268682BF959D300D5D3B1 /* PBXTargetDependency */,
+			);
+			name = cheddarUITests;
+			productName = cheddarUITests;
+			productReference = F34268662BF959D300D5D3B1 /* cheddarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34268412BF959D200D5D3B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F34268482BF959D200D5D3B1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F342685B2BF959D300D5D3B1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F34268482BF959D200D5D3B1;
+					};
+					F34268652BF959D300D5D3B1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F34268482BF959D200D5D3B1;
+					};
+				};
+			};
+			buildConfigurationList = F34268442BF959D200D5D3B1 /* Build configuration list for PBXProject "cheddar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F34268402BF959D200D5D3B1;
+			productRefGroup = F342684A2BF959D200D5D3B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F34268482BF959D200D5D3B1 /* cheddar */,
+				F342685B2BF959D300D5D3B1 /* cheddarTests */,
+				F34268652BF959D300D5D3B1 /* cheddarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34268472BF959D200D5D3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34268572BF959D300D5D3B1 /* Preview Assets.xcassets in Resources */,
+				F34268532BF959D300D5D3B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F342685A2BF959D300D5D3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34268642BF959D300D5D3B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34268452BF959D200D5D3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DE019C2C1EAA2A00A8FD04 /* IncomeCalculatorView.swift in Sources */,
+				F3DE01982C1EA75200A8FD04 /* PieChartView.swift in Sources */,
+				F342684F2BF959D200D5D3B1 /* ContentView old.swift in Sources */,
+				F3DE019A2C1EA9C200A8FD04 /* ContentView.swift in Sources */,
+				F313DBF62C5898A30005D6B8 /* Transaction.swift in Sources */,
+				F313DBF92C589BDC0005D6B8 /* SummaryView.swift in Sources */,
+				F34268832BF95F3F00D5D3B1 /* BudgetView.swift in Sources */,
+				F342684D2BF959D200D5D3B1 /* cheddarApp.swift in Sources */,
+				F313DBF42C58986A0005D6B8 /* MonthData.swift in Sources */,
+				F342687D2BF95B7300D5D3B1 /* LineItem.swift in Sources */,
+				F34268802BF95D0A00D5D3B1 /* SpendingCategory.swift in Sources */,
+				F313DBFB2C589C120005D6B8 /* AdditionalInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34268582BF959D300D5D3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F313DBFD2C589E880005D6B8 /* LineItem.swift in Sources */,
+				F313DBFC2C589E850005D6B8 /* MonthData.swift in Sources */,
+				F34268612BF959D300D5D3B1 /* cheddarTests.swift in Sources */,
+				F313DBFE2C589E8A0005D6B8 /* SpendingCategory.swift in Sources */,
+				F313DBFF2C589E8D0005D6B8 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34268622BF959D300D5D3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F342686D2BF959D300D5D3B1 /* cheddarUITestsLaunchTests.swift in Sources */,
+				F342686B2BF959D300D5D3B1 /* cheddarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F342685E2BF959D300D5D3B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34268482BF959D200D5D3B1 /* cheddar */;
+			targetProxy = F342685D2BF959D300D5D3B1 /* PBXContainerItemProxy */;
+		};
+		F34268682BF959D300D5D3B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34268482BF959D200D5D3B1 /* cheddar */;
+			targetProxy = F34268672BF959D300D5D3B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F342686E2BF959D300D5D3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F342686F2BF959D300D5D3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F34268712BF959D300D5D3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cheddar/cheddar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cheddar/Preview Content\"";
+				DEVELOPMENT_TEAM = 7592C9QMAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boswell.cheddar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34268722BF959D300D5D3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = cheddar/cheddar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cheddar/Preview Content\"";
+				DEVELOPMENT_TEAM = 7592C9QMAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boswell.cheddar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F34268742BF959D300D5D3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7592C9QMAG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boswell.cheddarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cheddar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cheddar";
+			};
+			name = Debug;
+		};
+		F34268752BF959D300D5D3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7592C9QMAG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boswell.cheddarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cheddar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cheddar";
+			};
+			name = Release;
+		};
+		F34268772BF959D300D5D3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7592C9QMAG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boswell.cheddarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cheddar;
+			};
+			name = Debug;
+		};
+		F34268782BF959D300D5D3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7592C9QMAG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boswell.cheddarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cheddar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34268442BF959D200D5D3B1 /* Build configuration list for PBXProject "cheddar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F342686E2BF959D300D5D3B1 /* Debug */,
+				F342686F2BF959D300D5D3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34268702BF959D300D5D3B1 /* Build configuration list for PBXNativeTarget "cheddar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34268712BF959D300D5D3B1 /* Debug */,
+				F34268722BF959D300D5D3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34268732BF959D300D5D3B1 /* Build configuration list for PBXNativeTarget "cheddarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34268742BF959D300D5D3B1 /* Debug */,
+				F34268752BF959D300D5D3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34268762BF959D300D5D3B1 /* Build configuration list for PBXNativeTarget "cheddarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34268772BF959D300D5D3B1 /* Debug */,
+				F34268782BF959D300D5D3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34268412BF959D200D5D3B1 /* Project object */;
+}
